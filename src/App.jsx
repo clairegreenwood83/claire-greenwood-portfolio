@@ -1,14 +1,15 @@
 import Navigation from "./components/Navigation.jsx";
+import Hero from "./components/Hero.jsx";
+import Projects from "./components/Projects.jsx";
 
 function App() {
   return (
-    <>
-      <Navigation />
+    <div className="min-h-screen bg-gradient-to-b from-[#748AFC]  via-[#E7DBFF] to-[#FFE1F3]">
       
-      <main className="min-h-screen">
-        <h1 className="text-4xl font-medium px-4 py-2">Building thoughtful digital experiences</h1>
-      </main>
-    </> 
+      <Navigation />
+      <Hero />
+      <Projects />
+    </div> 
   );
 }
 
